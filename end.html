@@ -14,26 +14,26 @@
     <script src="he.js"></script>
 </head>
 <body>
-    <div class="pyro">
-        <div class="before"></div>
-        <div class="after"></div>
-    <div class="container">
-        <div id="end" class="flex-center flex-column">
-            <h1 id="finalScore"></h1>
+    <main>
+        <div class="pyro">
+            <div class="before"></div>
+            <div class="after"></div>
 
-            <form>
-                <input type="text" name="username" id="username" placeholder="Username...">
-                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save</button>
-            </form>
+            <div class="container">
+                <div id="end" class="flex-center flex-column">
+                    <h1 id="finalScore"></h1>
 
-            <a class="btn" href="game.html">Play Again</a>
-            <a class="btn" href="index.html">Go Home</a>
+                    <form>
+                        <input type="text" name="username" id="username" placeholder="Username...">
+                        <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save</button>
+                    </form>
+
+                    <a class="btn" href="game.html">Play Again</a>
+                    <a class="btn" href="index.html">Go Home</a>
+                </div>
+            </div>    
         </div>
-    </div>
-
-    
-    </div>
-
+    </main>
     <script src="js/end.js"></script>
 </body>
 </html>
